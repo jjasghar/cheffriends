@@ -1,1 +1,1 @@
-TWEET_SEARCHER = TwitterSearch.new(['RubyFriends', 'RubyFriend'])
+TWEET_SEARCHER = TwitterSearch.new(['cheffriends', 'cheffriend'])

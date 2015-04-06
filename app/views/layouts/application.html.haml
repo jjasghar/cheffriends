@@ -3,14 +3,14 @@
     %meta{ charset: 'utf-8' }
     %meta{ 'http-equiv' => 'X-UA-Compatible', content: "IE=edge,chrome=1" }
     %meta{ name: :viewport, content: "width=device-width, initial-scale=1.0" }
-    %title #RubyFriends - Smile for the camera!
+    %title #ChefFriends - Smile for the camera!
     = stylesheet_link_tag :application
-    = auto_discovery_link_tag :atom, tweets_url(format: :atom), title: "#RubyFriends"
+    = auto_discovery_link_tag :atom, tweets_url(format: :atom), title: "#ChefFriends"
     = csrf_meta_tag
   %body
     #wrapper
       %header#page_header
-        %h1= link_to "#RubyFriends", root_path
+        %h1= link_to "#ChefFriends", root_path
         .feed
           = link_to image_tag('twitter_icon_grey.png'), twitter_url
           = link_to image_tag('feed_icon_grey.png'), tweets_url(format: :atom)

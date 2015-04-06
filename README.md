@@ -1,10 +1,10 @@
-# #RubyFriends
+# #ChefFriends
 
 ## Smile for the camera!
 
-Take pictures with all your friends in the Ruby community and post them to twitter with the #RubyFriends hashtag. We'll display them on our ongoing list of happy meetings in the Ruby world.
+Take pictures with all your friends in the Ruby community and post them to twitter with the #ChefFriends hashtag. We'll display them on our ongoing list of happy meetings in the Chef world.
 
-Check out all our wonderful [#RubyFriends](http://www.rubyfriends.com).
+Check out all our wonderful [#ChefFriends](http://friends.chef.io).
 
 ## Contributing
 
@@ -26,7 +26,7 @@ Check out all our wonderful [#RubyFriends](http://www.rubyfriends.com).
   # 2) add twitter credentials
   # see https://github.com/sferik/t for getting your twitter credentials
   # at http://dev.twitter.com/apps
-  # optionally configure whether to retweet 
+  # optionally configure whether to retweet
   # or whether to restrict to tweets with media, only
   ```
 
@@ -64,13 +64,13 @@ Check out all our wonderful [#RubyFriends](http://www.rubyfriends.com).
 
   9. [Create a pull request](https://help.github.com/articles/using-pull-requests)
 
-  
+
 ## Heroku Configuration
 
   ```bash
   heroku addons:add newrelic:standard
   # if not using aws s3 for image hosting
-    heroku addons:add cloudinary:starter 
+    heroku addons:add cloudinary:starter
     # edit application.yml
     # file_storage: cloudinary
   # else file_storage: s3 and set s3 keys

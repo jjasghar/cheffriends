@@ -1,7 +1,7 @@
 @tweets.map! { |tweet| Tweet::FeedPresenter.new(tweet) }
 
 atom_feed root_url: tweets_url do |feed|
-  feed.title "#RubyFriends"
+  feed.title "#ChefFriends"
   feed.updated @tweets.first.updated_at
 
   @tweets.each do |tweet|
